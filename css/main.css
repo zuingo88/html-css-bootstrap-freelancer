@@ -1,14 +1,26 @@
 /* generiche */
+body * {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
 .cinta {
   width: 80%;
   margin: auto;
 }
 
+button {
+  color: white !important;
+  background-color: #1abc9c !important;
+  font-size: 20px !important;
+  margin-top: 20px !important;
+  margin-bottom: 50px !important;
+}
+
 .contenuto {
-  height:100px;
+  height:auto;
   margin-bottom: 20px;
-  background-image: url(../img/gandalf.jpg);
-  background-repeat: no-repeat;
+  /* background-image: url(../img/gandalf.jpg);
+  background-repeat: no-repeat; */
   background-size: 100% 100%;
 }
 
@@ -23,19 +35,29 @@ header {
   padding: 50px 0;
 }
 
+.jumbot img {
+  width: 250px;
+}
+
 /* SECTION PORTFOLIO E CONTACTME */
 #portfolio, #contactme {
   background-color: white;
 
 }
 
-#portfolio .contenuto {
-  height: 180px;
+#portfolio img {
+  border-radius: 10px;
 }
 
 /* SECTION ABOUT */
 #about {
   background-color: #1abc9c;
+}
+
+#about .cinta {
+  width: 70%;
+  line-height: 30px;
+  color: white;
 }
 
 /* FOOTER*/
@@ -45,11 +67,20 @@ footer {
   color: white;
 }
 
-footer li a {
+.top_footer li {
+  width: 25px;
+  height: 25px;
+  border: solid 1px white;
+  border-radius: 50%;
   color: white;
-  text-decoration: none;
-  width: 30px;
-  height: 30px;
+  /* text-decoration: none;
+  justify-content: center;
+  align-items: center; */
+  padding: 3px;
+}
+
+.top_footer li a {
+  color: white;
 }
 
 .bottom_footer {
