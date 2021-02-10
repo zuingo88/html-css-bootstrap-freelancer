@@ -104,13 +104,11 @@ header {
 
 .hamburger {
   margin-top: 20px;
+  line-height: normal;
 }
 
 .hamburger a:hover {
-  color: #2c3e50;
-  background-color: #1abc9c;
-  border: solid 1px white;
-  border-radius: 20px;
+  color: #1abc9c;
 }
 
 .jumbot {
