@@ -3,9 +3,52 @@ body * {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
+
 .cinta {
   width: 80%;
   margin: auto;
+}
+
+.contenuto {
+  height:auto;
+  margin-bottom: 20px;
+  /* background-size: 100% 100%; */
+}
+
+h1, h2, h3 {
+  font-weight: bold !important;
+}
+
+h2 {
+  margin-top: 50px !important;
+  margin-bottom: 20px !important;
+}
+
+.white {
+  color: white;
+}
+
+.text_color {
+  color: #2c3e50;
+}
+
+.divisore {
+  margin-bottom: 20px;
+}
+
+.linea {
+  width: 120px;
+  border: solid 2px white;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.inline_block {
+  display: inline-block !important;
+}
+
+.star {
+  margin: 0 20px;
 }
 
 button {
@@ -14,14 +57,6 @@ button {
   font-size: 20px !important;
   margin-top: 20px !important;
   margin-bottom: 50px !important;
-}
-
-.contenuto {
-  height:auto;
-  margin-bottom: 20px;
-  /* background-image: url(../img/gandalf.jpg);
-  background-repeat: no-repeat; */
-  background-size: 100% 100%;
 }
 
 /* HEADER */
@@ -39,43 +74,42 @@ header {
   width: 250px;
 }
 
-/* SECTION PORTFOLIO E CONTACTME */
-#portfolio, #contactme {
-  background-color: white;
-
-}
-
+/* PORTFOLIO */
 #portfolio img {
   border-radius: 10px;
+}
+
+#portfolio .linea, #contactme .linea {
+  width: 120px;
+  border: solid 2px #2c3e50;
 }
 
 /* SECTION ABOUT */
 #about {
   background-color: #1abc9c;
+  line-height: 30px;
 }
 
-#about .cinta {
+/* REGOLE SECTION RICORRENTI */
+#portfolio, #contactme {
+  background-color: white;
+}
+
+#about .cinta, #contactme .cinta {
   width: 70%;
-  line-height: 30px;
-  color: white;
 }
 
 /* FOOTER*/
 footer {
   background-color: #2c3e50;
-
-  color: white;
 }
 
 .top_footer li {
-  width: 25px;
-  height: 25px;
+  width: 35px;
+  height: 35px;
   border: solid 1px white;
   border-radius: 50%;
   color: white;
-  /* text-decoration: none;
-  justify-content: center;
-  align-items: center; */
   padding: 3px;
 }
 
@@ -88,4 +122,8 @@ footer {
   height: 80px;
   line-height: 80px;
   vertical-align: middle;
+}
+
+p.rights {
+  font-size: 12.8px;
 }
