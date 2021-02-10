@@ -37,7 +37,7 @@ h2 {
 }
 
 .linea {
-  width: 120px;
+  width: 20%;
   border: solid 2px white;
   position: relative;
   margin-bottom: 5px;
@@ -48,7 +48,7 @@ h2 {
 }
 
 .star {
-  margin: 0 20px;
+  margin: 0 5%;
 }
 
 button {
